@@ -39,9 +39,9 @@
     right: -1px;
     top: -1px;
   }
-  h2.vegan { background-color: #52BE80;}
-  h2.veget { background-color: #F8C471;}
-  h2.omniv {background-color: #EC7063;}
+  h2.vegan { background-color: #A9D08E;}
+  h2.veget { background-color: #E3C598;}
+  h2.omniv { background-color: #FAC798;}
 
   p {
     margin: 10px;
