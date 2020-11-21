@@ -1,11 +1,9 @@
 /********** Base styles **********/
   * {
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-
-
   }
  
   h1 {
@@ -18,28 +16,28 @@
     margin-left: 20px;
   }
 
-  section {
+  .col-lg-4, .col-md-6, .col-md-12,.col-sm-12  {
     float: left;
     position: relative;
   }
 
-  section div {
+  section {
     background-color: #F2F3F4;
     border: 1px solid black;
 
     position:relative;
     margin-bottom: 20px;
     margin-right: 20px;
-
   }
 
   h2 {
     font-size: 125%;
-    padding: 7px;
     border: 1px solid black;
+    padding: 7px;
 
     position:absolute;
-    right: 0px;
+    right: -1px;
+    top: -1px;
   }
   h2.vegan { background-color: #52BE80;}
   h2.veget { background-color: #F8C471;}
@@ -60,7 +58,6 @@
   
   /********** Medium devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
-    
     .col-md-6 {
       width: 50%;
     }
