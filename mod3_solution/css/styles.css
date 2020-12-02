@@ -36,20 +36,26 @@ body {
 /* END OF HEADER */
 
 /* MAIN */
+#main-content {
+    /* margin-inline: 0px; */
+}
 #main-content h1 {
     margin-top: -5px;
     margin-bottom: 20px;
     font-size: 28px;
 }
+
+#main-content .row {
+    height: 1000px;
+    margin-inline: 10px;
+    padding: 15px;
+    background-color: azure;
+}
+
 #main-content h2 {
     margin-top: -5px;
     margin-bottom: 15px;
     font-size: 20px;
-}
-#main-content .row {
-    background-color: azure;
-    height: 1000px;
-    padding: 15px;
 }
 /* END OF MAIN */
 /********** Large devices only **********/
